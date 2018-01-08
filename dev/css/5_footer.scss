@@ -1,0 +1,40 @@
+.footer{
+    background-color: #78affa;
+}
+
+.footer-top{
+    padding-top: 35px;
+    padding-bottom: 7px;
+}
+
+.footer-menu{
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        a{
+            padding: 0 18px;
+            border-right: 2px solid #feffff;
+            color:  #feffff;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 13px;
+        }
+        &:last-child{
+            a{
+                border-right: none;
+            }
+        }
+    }
+}
+
+.footer-copyright{
+    padding: 10px;
+    font-family: 'Calibri';
+    color:  #fbffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+

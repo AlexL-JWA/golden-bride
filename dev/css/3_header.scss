@@ -1,0 +1,210 @@
+html, body{
+    min-width: 1080px;
+}
+
+.contest-page{
+    font-family: 'Calibri';
+    font-size: 18px;
+    color:  #383939;
+    background-color: #ebf3f5;
+}
+
+.container{
+    width: 1024px !important;
+    min-width: 1024px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header{
+   position: relative;
+    &:after{
+        content: '';
+        height: 10px;
+        width: 100%;
+        position: absolute;
+        bottom: -10px;
+        background-image: url(../img/header-line.svg);
+        background-repeat: repeat-x;
+        display: block;
+        z-index: -1;
+    }
+}
+
+.header-logo{
+    font-family: 'Machia';
+    margin-bottom: 8px;
+}
+
+.header-right-block, .header-left-block{
+    padding: 45px 0 65px;
+}
+
+.header-left-block{
+    position: relative;
+    &:before{
+        display: block;
+        width: 440px;
+        height: 100%;
+        content: '';
+        background-image: url(../img/header-bg1.png);
+        position: absolute;
+        z-index: -1;
+        background-position: center left;
+        top: 0;
+        left: 0;
+        transform: translateX(-50%);
+    }
+}
+
+.header-logo-right{
+    margin-left: 20px;
+    padding-top: 12px;
+}
+
+.header-logo-top-text{
+    color:  #383939;
+    font-size: 46px;
+    font-weight: 400;
+    display: block;
+}
+
+.header-logo-bottom-text{
+    color:  #2b67b8;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.header-logo-left{
+    width: 60px;
+    height: 62px;
+    background-image: url(../img/Heart.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-photo__block{
+    background-color:  #fafeff;
+    box-shadow: 0px 5px 9px 0px rgba(135, 139, 140, 0.34);
+    padding: 4px 5px;
+    width: 110px;
+    height: 130px;
+}
+
+.header-photo{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+
+    &.video:after{
+        content: '';
+        width: 28px;
+        height: 27px;
+        background-image: url(../img/camera.svg);
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+    }
+
+}
+
+.header-photo-overlay{
+        position: relative;
+        &:before{
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.15));
+            transition: all 0.5s;
+        }
+
+}
+
+.header-photo{
+    &:hover{
+        .header-photo-overlay:before{
+             background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0));
+            transition: all 0.5s;
+        }
+    }
+}
+
+.header-photo-status{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    color:  #fffffe;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px;
+    background-color:  #84bd40;
+}
+
+.top-lady-image{
+    height: 100%;
+}
+
+.header-right-block{
+    padding-left: 70px;
+}
+
+
+
+.header-link-icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+
+.home-link{
+    .header-link-icon{
+        background-image: url(../img/headerMenu.png);
+        background-position: -5px -8px;
+        background-repeat: no-repeat;
+
+    }
+}
+.search-link{
+    .header-link-icon{
+        background-image: url(../img/headerMenu.png);
+        background-position: -5px 38px;
+    }
+}
+.logout-link{
+    .header-link-icon{
+        background-image: url(../img/headerMenu.png);
+        background-position: -5px 77px;
+    }
+}
+
+.header-btn{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    background-color:  #f9feff;
+    box-shadow: 0px 5px 9px 0px rgba(195, 200, 201, 0.51);
+    padding: 6px;
+    transform: translate(0);
+    transition: all 0.5s;
+    font-family: 'Calibri';
+    color:  #3a3b3b;
+    font-size: 17px;
+    font-weight: 700;
+    transition: all 0.2s;
+    &:hover{
+        transform: translate(0, 2px);
+        transition: all 0.2s;
+        color:  #3a3b3b;
+    }
+}

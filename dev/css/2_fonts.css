@@ -1,0 +1,34 @@
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri/Calibri.eot');
+	src: url('../fonts/Calibri/Calibri.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Calibri/Calibri.woff') format('woff'),
+		 url('../fonts/Calibri/Calibri.ttf') format('truetype'),
+		 url('../fonts/Calibri/Calibri.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri-Bold/Calibri-Bold.eot');
+	src: url('../fonts/Calibri-Bold/Calibri-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Calibri-Bold/Calibri-Bold.woff') format('woff'),
+		 url('../fonts/Calibri-Bold/Calibri-Bold.ttf') format('truetype'),
+		 url('../fonts/Calibri-Bold/Calibri-Bold.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Machia';
+	src: url('../fonts/Machia/Machia.eot');
+	src: url('../fonts/Machia/Machia.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Machia/Machia.woff') format('woff'),
+		 url('../fonts/Machia/Machia.ttf') format('truetype'),
+		 url('../fonts/Machia/Machia.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
